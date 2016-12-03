@@ -5,9 +5,9 @@ find_package(catkin REQUIRED COMPONENTS actionlib angles gridmap_2d humanoid_nav
 
 find_package(OpenCV REQUIRED)
 
-#find_package(sbpl REQUIRED)
-find_package(PkgConfig REQUIRED)
-pkg_check_modules(SBPL REQUIRED sbpl)
+find_package(sbpl REQUIRED)
+#find_package(PkgConfig REQUIRED)
+#pkg_check_modules(SBPL REQUIRED sbpl)
 include_directories(${SBPL_INCLUDE_DIRS})
 link_directories(${SBPL_LIBRARY_DIRS})
 
