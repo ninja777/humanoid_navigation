@@ -672,6 +672,8 @@ FootstepPlanner::mapCallback(
             // here is in fact a planning from the scratch
             plan(false);
         }
+        
+        updating=false;
 
     }
 }
