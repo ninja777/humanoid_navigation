@@ -21,6 +21,7 @@
   <license>GPL 3</license>
   <url>http://ros.org/wiki/footstep_planner</url>
   
+  <buildtool_depend>catkin</buildtool_depend>
   <build_depend>actionlib</build_depend>
   <build_depend>angles</build_depend>
   <build_depend>gridmap_2d</build_depend>
@@ -43,5 +44,4 @@
   <run_depend>tf</run_depend>
   <run_depend>visualization_msgs</run_depend>
 
-  <buildtool_depend>catkin</buildtool_depend>
 </package>
